@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:100,200,300,400,500,600,700&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap"
+          rel="stylesheet">
+</head>
+<body id="theme-container" class="theme-white">
+<div class="modal">
+    <div class="setting-container">
+        <div class="setting-title">
+            Block setting
+        </div>
+        <div class="tabs">
+            <button data-section="general" class="tab-btn active">General</button>
+            <button data-section="appearance" class="tab-btn">Appearance</button>
+        </div>
+        <div class="settings-text">
+            <h3>Layout options</h3>
+            <h5>Select which elements should be displayed</h5>
+        </div>
+        <form name="general" class="section active">
+            <div><input type="checkbox" class="general-control" name="secondary-title" checked><label>Block secondary title</label></div>
+            <div><input type="checkbox" class="general-control" name="title" checked><label>Block title</label></div>
+            <div><input type="checkbox" class="general-control" name="subtitle" checked><label>Block subtitle</label></div>
+            <div><input type="checkbox" class="general-control" name="secondary-btn" checked><label>Block secondary btn</label></div>
+        </form>
+        <form name="appearance" class="section appearance">
+            <lable class="theme-radio"><input type="radio" id="white-them" name="theme" value="theme-white" checked><span class="checkmark white"></span></lable>
+            <lable class="theme-radio"><input type="radio" id="grey-them" name="theme" value="theme-gray"><span class="checkmark grey"></span></lable>
+            <lable class="theme-radio"><input type="radio" id="dark-them" name="theme" value="theme-dark"><span class="checkmark dark"></span></lable>
+        </form>
+        <div class="btn-cont">
+            <button id="save-btn">Save</button>
+            <button id="cancel-btn">Cancel</button>
+        </div>
+    </div>
+</div>
+<header class="header">
+    <div class="container">
+        <div class="logo">
+            <img src="./img/image.png" alt="">
+            <span>Doreto</span>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li>Home</li>
+                <li>Contacts</li>
+            </ul>
+        </nav>
+        <div class="phone">+1 888 123 45 67</div>
+    </div>
+</header>
+<section class="main-content">
+    <div class="container">
+        <h6 class="secondary-title">Secondary title</h6>
+        <h2 class="articles">Articles</h2>
+        <h5 class="paragraph">
+            This is a paragraph. To edit this paragraph,
+            highlight the text and replace it with your own content.
+            Either type the text directly or paste the copied text here.
+        </h5>
+        <div class="post-main-container">
+            <div class="post-container">
+                <div class="image"><img src="./img/picture_1.jpg" alt=""></div>
+                <p class="author">Jonh Doe</p>
+                <h4 class="title">Post Name</h4>
+                <p class="description">This is a paragraph. To edit this paragraph, highlight the text and replace
+                    it.</p>
+                <a href="" class="learn-more">Learn more</a>
+            </div>
+            <div class="post-container">
+                <div class="image"><img src="./img/picture_2.jpg" alt=""></div>
+                <p class="author">Jonh Doe</p>
+                <h4 class="title">Post Name</h4>
+                <p class="description">This is a paragraph. To edit this paragraph, highlight the text and replace it.</p>
+                <a href="" class="learn-more">Learn more</a>
+            </div>
+            <div class="post-container">
+                <div class="image"><img src="./img/picture_3.jpg" alt=""></div>
+                <p class="author">Jonh Doe</p>
+                <h4 class="title">Post Name</h4>
+                <p class="description">This is a paragraph. To edit this paragraph, highlight the text and replace it.</p>
+                <a href="" class="learn-more">Learn more</a>
+            </div>
+        </div>
+        <div class="btn-container">
+            <a class="contact" href="">Contact us</a>
+            <a class="learn-more" href="">Learn more</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-logo">
+            <img src="./img/image.png" alt="">
+            <span>Doreto</span>
+        </div>
+        <div class="footer-text">
+            This is a paragraph.
+            To edit this paragraph, highlight
+            the text and replace it with your own
+            fresh content. Moving this text
+            widget is no problem.
+        </div>
+        <div class="footer-social">
+            <img src="./img/facebook-logo.png" alt="">
+            <img src="./img/instagram.png" alt="">
+            <img src="./img/linkedin-logo.png" alt="">
+            <img src="./img/Twitter.png" alt="">
+            <img src="./img/google.png" alt="">
+        </div>
+        <div class="copyright">
+            Paste here copyright information
+        </div>
+    </div>
+</footer>
+<script src="./app.bundle.js"></script>
+</body>
+</html>
